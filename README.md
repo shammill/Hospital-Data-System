@@ -1,0 +1,1 @@
+This hospital system was built in 2014 for a 2nd year university project. LAMP stack (PHP/MySQL) with jQuery, Bootstrap, a Calendar Component and PDF Generator. Includes the ability to record and update patient data. Staff management, including the ability to assign Doctors and Nurses to patients. Schedule with a calendar component, and report generation.

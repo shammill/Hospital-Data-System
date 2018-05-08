@@ -1,0 +1,1 @@
+DROP TABLE if exists `emergency`, `medical`, `notes`, `image`, `patients`, `permissionlist`, `resources`, `resource_queue`, `resource_types`, `rolelist`, `rolepermissions`, `staff`, `doctornurse`, `staffpatient`, `staffpermissions` ,`billable`, `invoice`, `invoice_items` ;

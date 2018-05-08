@@ -1,0 +1,15 @@
+Options -Indexes
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteRule ^home$ ./home.php
+RewriteRule ^login$ ./login.php
+RewriteRule ^notes$ ./notes.php
+RewriteRule ^logout$ ./logout.php
+RewriteRule ^create$ ./create.php
+RewriteRule ^500$ ./500.php
+
+php_flag session.auto_start 1
